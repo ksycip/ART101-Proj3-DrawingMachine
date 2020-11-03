@@ -1,0 +1,39 @@
+html {
+  margin: 0;
+  padding: 0;
+
+
+  background: url(assets/swirly.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+body {
+  margin: 100px auto 0 auto;
+  width: 80%;
+  text-align: left;
+  font-family: "courier", monospace;
+
+}
+
+h1 {
+text-align: center;
+
+}
+
+/* canvas {
+  margin: 0 auto 0 auto;
+  display: block;
+  border: 5px solid rgb(250, 233, 225);
+} */
+
+canvas {
+  margin: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
