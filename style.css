@@ -3,7 +3,7 @@ html {
   padding: 0;
 
 
-  background: url(assets/swirly.jpg) no-repeat center center fixed;
+  background: url(assets/starry-night-1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,15 +12,33 @@ html {
 }
 
 body {
-  margin: 100px auto 0 auto;
-  width: 80%;
-  text-align: left;
+  /* margin-left: 100px;
+ margin-right: 100px; */
+ margin-top: 20px;
+ text-align: left;
   font-family: "courier", monospace;
 
 }
 
 h1 {
 text-align: center;
+
+
+}
+
+.blue-rectangle{
+  background-color: #e6e6e6;
+   /* padding: 10px 30px; */
+  /* margin-bottom: 25px */
+  width: 150px;
+  height: 225px;
+  margin-top: 10px;
+
+}
+
+
+.function{
+text-align: left;
 
 }
 
